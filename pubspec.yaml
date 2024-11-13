@@ -1,0 +1,35 @@
+name: flutter_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # 添加本地图片资源
+  assets:
+    - images/image1.jpg
+    - images/image2.jpg
+    - images/image3.jpg
+
+  # 添加字体资源
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+        - asset: fonts/Roboto-Bold.ttf
+        - asset: fonts/Roboto-Italic.ttf
